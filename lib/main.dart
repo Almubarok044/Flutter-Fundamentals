@@ -1,7 +1,7 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
-import 'package:flutter_dasar/mapping_list.dart';
+import 'package:flutter_dasar/screens/mapping_list.dart';
 import 'package:flutter_dasar/screens/extract_widget.dart';
 import 'package:flutter_dasar/screens/image_widget.dart';
 import 'package:flutter_dasar/screens/list_tile.dart';
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // home: const TileList());
         // home: const ImageWidget());
         // home: const ExtractWidget());
-        // home: const Stf());
-        home: const MappingList());
+        home: const Stf());
+    // home: const MappingList());
   }
 }

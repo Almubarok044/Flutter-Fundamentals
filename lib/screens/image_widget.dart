@@ -6,11 +6,15 @@ class ImageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Image Widget'),
-        centerTitle: true,
-        elevation: 1,
+      appBar: Tab(
+        text: 'aPAja',
+        icon: Icon(Icons.access_time_filled_rounded),
       ),
+      // appBar: AppBar(
+      //   title: const Text('Image Widget'),
+      //   centerTitle: true,
+      //   elevation: 1,
+      // ),
       body: Center(
         child: Container(
           height: 500,

@@ -41,7 +41,7 @@ class MappingList extends StatelessWidget {
           print(myhobbies);
           return Card(
             margin: const EdgeInsets.all(20),
-            color: Colors.yellow.withOpacity(0),
+            color: Colors.yellow,
             child: Container(
               margin: const EdgeInsets.all(10),
               child: Column(

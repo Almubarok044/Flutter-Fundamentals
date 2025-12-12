@@ -12,7 +12,7 @@ class ExtractWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     var faker = Faker();
     // String tdata = DateFormat("hh:mm a").format(DateTime.now());
-    var randomDate = RandomDate.withRange(2000, 2005).toString();
+    var randomDate = RandomDate.withRange(2020, 2025);
 
     return Scaffold(
       appBar: AppBar(
@@ -35,6 +35,7 @@ class ExtractWidget extends StatelessWidget {
           );
         },
       ),
+      // KALO BUAT KODE SEPERTI DIBAWAH INI KELAMAAN KEBANYAKAN
       // children: [
       // ItemChat(
       //   imageUrl:
@@ -103,7 +104,7 @@ class ItemChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // String tdata = DateFormat("hh:mm a").format(DateTime.now());
-    var randomDate = RandomDate.withRange(2000, 2005).toString();
+    var randomDate = RandomDate.withStartYear(2000).toString();
 
     return ListTile(
       // contentPadding: EdgeInsets.all(5),

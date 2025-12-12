@@ -9,10 +9,9 @@ class Stf extends StatefulWidget {
 }
 
 class _StfState extends State<Stf> {
+  int counter = 2;
   @override
   Widget build(BuildContext context) {
-    int counter = 1;
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dynamic Apps'),
